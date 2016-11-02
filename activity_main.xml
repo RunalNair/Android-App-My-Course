@@ -42,31 +42,64 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="EC602"
+        android:text="View Course#1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/b601"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="48dp"
-        android:id="@+id/b602" />
+        android:layout_alignBottom="@+id/b551"
+        android:layout_toRightOf="@+id/b551"
+        android:layout_toEndOf="@+id/b551"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:id="@+id/bFp" />
 
     <Button
-        android:text="EC601"
+        android:text="View Course#2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="43dp"
+        android:id="@+id/bPd"
+        android:layout_alignBaseline="@+id/b601"
+        android:layout_alignBottom="@+id/b601"
+        android:layout_alignLeft="@+id/bFp"
+        android:layout_alignStart="@+id/bFp" />
+
+    <Button
+        android:text="View Course#3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/b602"
+        android:layout_alignLeft="@+id/bPd"
+        android:layout_alignStart="@+id/bPd"
+        android:id="@+id/bSd" />
+
+    <Button
+        android:text="Edit Course #2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/b601"
-        android:layout_below="@+id/b551"
-        android:layout_alignLeft="@+id/b602"
-        android:layout_alignStart="@+id/b602" />
+        android:layout_below="@+id/etCourse"
+        android:layout_alignLeft="@+id/b551"
+        android:layout_alignStart="@+id/b551"
+        android:layout_marginTop="135dp" />
 
     <Button
-        android:text="EC551"
+        android:text="Edit Course #1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
         android:id="@+id/b551"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
         android:layout_below="@+id/etCourse"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginTop="29dp" />
+
+    <Button
+        android:text="Edit Course #3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:id="@+id/b602"
+        android:layout_below="@+id/b601"
         android:layout_alignLeft="@+id/b601"
         android:layout_alignStart="@+id/b601" />
 </RelativeLayout>
